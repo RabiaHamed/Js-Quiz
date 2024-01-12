@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Ephesis&family=Lemon&family=Mooli&family=MuseoModerno:wght@200;300;400;500;600;700;800;900&family=Oswald:wght@600&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+
+    <!-- B correct -->
+
+     <div id="box">
+        <div class="head">
+            <h1>Let's Play a quiz game!</h1>
+        </div>
+        <div class="glass"> 
+            <div class="content">
+                <h2>Q1: Which is the fastest bird in the world?</h2>
+            <div class="qs1">
+             <label onclick="check1()" for="opt1"><input type="radio" name="Japan" id="ans1"> &nbsp;
+                Bald Eagle</label>
+            </div>
+            <div class="qs2">
+                <label onclick="check()" for="opt2"><input type="radio" name="Japan" id="ans2"> &nbsp;
+                    Peregrine Falcon</label>
+               </div>
+               <div class="qs3">
+                <label onclick="check2()" for="opt3"><input type="radio" name="Japan" id="ans3"> &nbsp;
+                    Raven</label>
+               </div>
+            </div>
+                <a href="./game.html">
+                    <button class="submit1">Next</button></a>
+        </div>
+    
+     </div>
+    
+
+       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

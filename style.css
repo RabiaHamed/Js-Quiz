@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg?w=740&t=st=1703884991~exp=1703885591~hmac=c695b29726a7807eddb7bc1aa1c152cd3db56d7119e1c399e14f964c9edc7e2b); */
+   background-image: url(https://img.freepik.com/free-photo/close-up-creative-background-with-white-shapes_23-2148811503.jpg?w=740&t=st=1703887425~exp=1703888025~hmac=1b4ea7683acef6ac1e1a454ed7d4a483537c20c75322f7925dc8c8df0cbefad6);
+    background-color: #fff;
+    color: #485563;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-family: 'Anton', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Ephesis', cursive;
+font-family: 'Lemon', serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'MuseoModerno', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+.main{
+    width: 400px;
+    height: 600px;
+    padding: 10px 25px 35px 35px;
+    margin-left: -100px;
+    margin-top: 120px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+.tittle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #485563;
+    letter-spacing: 5px;
+    /* margin: px; */
+    font-family: gotham;
+    margin-bottom: 10px;
+}
+.credentials{
+    width: 100%;
+    padding: 2px 5px 0px 5px;
+}
+.credentials input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+    letter-spacing: 1px;
+}
+.username{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c2c4c3;
+    transition: .5s ease;
+}
+.username:hover{
+    border-bottom: 3px solid #485563;
+}
+.password{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #c2c4c3;
+    transition: .5s ease;
+}
+.password:hover{
+    border-bottom: 3px solid #485563;
+}
+.email{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #c2c4c3;
+    transition: .5s ease;
+}
+.email:hover{
+    border-bottom: 3px solid #485563;
+}
+.submit{
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(to right, #485563 0%, #29323c 51%, #485563 100%);
+    background-size: 200%;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px -8px #485563;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.submit:hover{
+    background-position: right;
+}
+.glass{
+    margin-top: 50px;
+    height: 70%;
+    width: 50%;
+    background-color: #25232325;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    padding: 1vw;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+.head h1{
+    margin-top: 30px;
+    text-align: center;
+ 
+    
+}
+.content h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.content label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: lemon;
+    /* border-bottom: 1px solid #485563;
+    border-top: 1px solid #485563; */
+}
+.submit1{
+    /* cursor: none; */
+    font-family: lemon;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 50%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(to right, #485563 0%, #29323c 51%, #485563 100%);
+    background-size: 200%;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px -8px #485563;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.submit1:hover{
+    background-position: right;
+}
+
+
+
+
